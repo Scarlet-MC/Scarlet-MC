@@ -10,7 +10,7 @@ local MobileToggleButton = Instance.new("TextButton")
 local PCToggle = Instance.new("Frame")
 local PCTitle = Instance.new("TextLabel")
 local PCToggleButton = Instance.new("TextButton")
-local SazaSystem = Instance.new("TextLabel")
+local ScarletXSystem = Instance.new("TextLabel")
 local Outline1 = Instance.new("Frame")
 local LoadText = Instance.new("TextButton")
 local UICorner = Instance.new("UICorner")
@@ -28,8 +28,8 @@ ScarletXMain.BorderSizePixel = 2
 ScarletXMain.Position = UDim2.new(0.345615327, 0, 0.329824567, 0)
 ScarletXMain.Size = UDim2.new(0, 395, 0, 224)
 
-ScarletXText.Name = "SazaText"
-ScarletXText.Parent = SazaMain
+ScarletXText.Name = "ScarletXText"
+ScarletXText.Parent = ScarletXMain
 ScarletXText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ScarletXText.BackgroundTransparency = 1.000
 ScarletXText.Position = UDim2.new(0.182278469, 0, -0.0625, 0)
@@ -40,7 +40,7 @@ ScarletXText.TextColor3 = Color3.fromRGB(180, 180, 180)
 ScarletXText.TextSize = 14.000
 
 LoaderText.Name = "LoaderText"
-LoaderText.Parent = SazaMain
+LoaderText.Parent = ScarletXMain
 LoaderText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 LoaderText.BackgroundTransparency = 1.000
 LoaderText.BorderSizePixel = 0
@@ -59,13 +59,13 @@ local result, code = pcall(function()
 end)   
 
 Outline.Name = "Outline"
-Outline.Parent = SazaMain
+Outline.Parent = ScarletXMain
 Outline.BackgroundColor3 = Color3.fromRGB(0, 172, 172)
 Outline.Position = UDim2.new(0.0227848105, 0, 0.120535716, 0)
 Outline.Size = UDim2.new(0, 374, 0, 3)
 
 MobileToggle.Name = "MobileToggle"
-MobileToggle.Parent = SazaMain
+MobileToggle.Parent = ScarletXMain
 MobileToggle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 MobileToggle.BorderColor3 = Color3.fromRGB(0, 165, 165)
 MobileToggle.Position = UDim2.new(0.0405063257, 0, 0.334821433, 0)
@@ -94,7 +94,7 @@ MobileToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 MobileToggleButton.TextSize = 14.000
 
 PCToggle.Name = "PCToggle"
-PCToggle.Parent = SazaMain
+PCToggle.Parent = ScarletXMain
 PCToggle.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
 PCToggle.BorderColor3 = Color3.fromRGB(0, 165, 165)
 PCToggle.Position = UDim2.new(0.0405063257, 0, 0.46875, 0)
@@ -122,26 +122,26 @@ PCToggleButton.Text = ""
 PCToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 PCToggleButton.TextSize = 14.000
 
-SazaSystem.Name = "SazaSystem"
-SazaSystem.Parent = SazaMain
-SazaSystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SazaSystem.BackgroundTransparency = 1.000
-SazaSystem.BorderColor3 = Color3.fromRGB(27, 42, 53)
-SazaSystem.Position = UDim2.new(0.301265836, 0, 0.566964269, 0)
-SazaSystem.Size = UDim2.new(0, 156, 0, 49)
-SazaSystem.Font = Enum.Font.GothamSemibold
-SazaSystem.Text = "SazaSystem: Thanks for use Saza Hub, Stay Safe!"
-SazaSystem.TextColor3 = Color3.fromRGB(180, 180, 180)
-SazaSystem.TextSize = 15.000
+ScarletXSystem.Name = "ScarletXSystem"
+ScarletXSystem.Parent = ScarletXMain
+ScarletXSystem.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScarletXSystem.BackgroundTransparency = 1.000
+ScarletXSystem.BorderColor3 = Color3.fromRGB(27, 42, 53)
+ScarletXSystem.Position = UDim2.new(0.301265836, 0, 0.566964269, 0)
+ScarletXSystem.Size = UDim2.new(0, 156, 0, 49)
+ScarletXSystem.Font = Enum.Font.GothamSemibold
+ScarletXSystem.Text = "ScarletXSystem: Thanks for use ScarletX Hub, Stay Safe!"
+ScarletXSystem.TextColor3 = Color3.fromRGB(180, 180, 180)
+ScarleytXstem.TextSize = 15.000
 
 Outline1.Name = "Outline1"
-Outline1.Parent = SazaMain
+Outline1.Parent = ScarletXMain
 Outline1.BackgroundColor3 = Color3.fromRGB(0, 172, 172)
 Outline1.Position = UDim2.new(0.0253164563, 0, 0.611607075, 0)
 Outline1.Size = UDim2.new(0, 374, 0, 3)
 
 LoadText.Name = "LoadText"
-LoadText.Parent = SazaMain
+LoadText.Parent = ScarletXmain
 LoadText.BackgroundColor3 = Color3.fromRGB(0, 200, 200)
 LoadText.Position = UDim2.new(0.182278484, 0, 0.75, 0)
 LoadText.Size = UDim2.new(0, 245, 0, 41)
@@ -253,14 +253,14 @@ if mobilesupported and not pcsupported then
         end
     end
     wait(1)
-    LoadingTXT.Text = "Thank for using Saza Hub"
+    LoadingTXT.Text = "Thank for using ScarletX Hub"
     wait(1)
     SazaLoader:Destroy()
     wait(1)
     loadstring(game:HttpGet('https://raw.githubusercontent.com/KuppaHX/Saza/main/PSXSazaMobile.lua'))()
 elseif not mobilesupported and pcsupported then
     wait(1)
-    LoadingTXT.Text = "Thank for using Saza Hub"
+    LoadingTXT.Text = "Thank for using ScarletX Hub"
     wait(1)
     SazaLoader:Destroy()
     wait(1)
